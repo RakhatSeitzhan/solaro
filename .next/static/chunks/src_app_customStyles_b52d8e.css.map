@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/customStyles.css"],"sourcesContent":[".title{\n    font-family: Montserrat, sans-serif  !important;\n    /* font-size: 35px; */\n    font-weight: 500  !important;\n}\n\n.main-bg-shadow{\n    box-shadow: 0px 4px 30px 0 rgba(42, 51, 56, 0.25), inset 0 0 10px rgba(255, 255, 255, 0.15)  !important;\n}\n.image-shadow{\n    box-shadow: 0px 5px 15 0 rgba(18, 34, 40, 0.2) !important;\n}"],"names":[],"mappings":"AAAA;;;;;AAMA;;;;AAGA"}},
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
