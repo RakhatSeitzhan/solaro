@@ -317,40 +317,16 @@ img, video {
   inset: 0;
 }
 
-.right-4 {
-  right: 1rem;
-}
-
-.top-4 {
-  top: 1rem;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
 .z-10 {
   z-index: 10;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .z-\[-10\] {
   z-index: -10;
 }
 
-.z-40 {
-  z-index: 40;
-}
-
 .z-\[1000\] {
   z-index: 1000;
-}
-
-.z-\[50\] {
-  z-index: 50;
 }
 
 .z-\[1500\] {
@@ -394,6 +370,10 @@ img, video {
   margin-bottom: 300px;
 }
 
+.ml-\[100\%\] {
+  margin-left: 100%;
+}
+
 .mt-1 {
   margin-top: .25rem;
 }
@@ -418,6 +398,10 @@ img, video {
   margin-top: 2rem;
 }
 
+.mt-\[-1000px\] {
+  margin-top: -1000px;
+}
+
 .mt-\[-100px\] {
   margin-top: -100px;
 }
@@ -432,30 +416,6 @@ img, video {
 
 .mt-\[370px\] {
   margin-top: 370px;
-}
-
-.mt-\[-50\%\] {
-  margin-top: -50%;
-}
-
-.mt-\[-500px\] {
-  margin-top: -500px;
-}
-
-.mt-\[-600px\] {
-  margin-top: -600px;
-}
-
-.mt-\[-1000px\] {
-  margin-top: -1000px;
-}
-
-.ml-\[100\%\] {
-  margin-left: 100%;
-}
-
-.ml-\[-350px\] {
-  margin-left: -350px;
 }
 
 .flex {
@@ -520,6 +480,14 @@ img, video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[350px\] {
+  width: 350px;
 }
 
 .max-w-32 {
@@ -652,10 +620,6 @@ img, video {
   --tw-bg-opacity: .3;
 }
 
-.bg-opacity-50 {
-  --tw-bg-opacity: .5;
-}
-
 .bg-\[url\(\'\/images\/bentley\/description\.png\'\)\] {
   background-image: url("/images/bentley/description.png");
 }
@@ -737,9 +701,9 @@ img, video {
   padding-right: 2.5rem;
 }
 
-.px-2 {
-  padding-left: .5rem;
-  padding-right: .5rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-6 {
@@ -760,11 +724,6 @@ img, video {
 .py-\[120px\] {
   padding-top: 120px;
   padding-bottom: 120px;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .pl-6 {
@@ -866,11 +825,6 @@ img, video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.antialiased {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .brightness-50 {
   --tw-brightness: brightness(.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -924,10 +878,6 @@ img, video {
 }
 
 @media (width >= 768px) {
-  .md\:hidden {
-    display: none;
-  }
-
   .md\:h-\[100px\] {
     height: 100px;
   }
