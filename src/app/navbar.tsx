@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import { IoIosMenu } from "react-icons/io";
-import { CiLocationOn } from "react-icons/ci";
 type NavbarProps = {
   onHamburgerClick: () => void;
 };
