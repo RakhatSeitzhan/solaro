@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Navbar from "./navbar";
 import Sidebar from "./sidebar";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 import "./globals.css";
 import "./customStyles.css"
