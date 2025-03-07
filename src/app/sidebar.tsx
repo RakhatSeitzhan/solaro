@@ -8,7 +8,7 @@ type SidebarProps = {
 
 const Sidebar: React.FC<SidebarProps> = ({ onClose, isOpen }) => {
   return (
-    <aside className="w-[350px] fixed w-full min-h-screen bg-gray bg-opacity-30 backdrop-blur-md text-white bg-black px-10 py-8 z-[1000]">
+    <aside className="w-[350px]fixed min-h-screen bg-gray bg-opacity-30 backdrop-blur-md text-white bg-black px-10 py-8 z-[1000]">
       <div className="flex flex-col h-full z-[1500]">
         <div className="mb-10 z-100">
           <img src="/images/logo-white.png" alt="logo" className='max-w-32'/>
