@@ -1,3 +1,9 @@
+'use client'
+
+import { useState } from "react";
+import Navbar from "./navbar";
+import Sidebar from "./sidebar";
+import { motion, AnimatePresence } from "framer-motion";
 
 import "./globals.css";
 import "./customStyles.css"
@@ -11,17 +17,25 @@ const montserrat = Montserrat({
 })
 
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.svg" />
+      </head>
       <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={montserrat.className}
       >
+        <motion.div
+          key="sidebar"
+          initial={{ x: "-350px" }}
+          animate={{ x: sidebarOpen ? 0 : "-350px" }}
+          transition={{ duration: 0.4, type: "tween"}}
+        >
+          <Sidebar isOpen = {sidebarOpen} onClose={() => setSidebarOpen(false)} />
+        </motion.div>
+        <Navbar onHamburgerClick={() => setSidebarOpen(true)} />
         {children}
       </body>
     </html>

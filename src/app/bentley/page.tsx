@@ -1,16 +1,13 @@
 'use client'
 import React from 'react'
-import Navbar from '../navbar'
 import HoverImage from '../components/HoverImage'
 import Footer from '../footer'
 
 function Versace() {
     return (
         <div>
-            {/* ????????? */}
-            <Navbar onHamburgerClick={() => {}}/> 
             <div className="h-[600px] w-screen bg-[url('/images/bentley/main-bg-2.png')] bg-cover bg-center absolute"></div>
-            <div className='xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-xl md:px-0 px-2 w-screen mx-auto'>
+            <div className='xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-xl md:px-0 px-4 w-screen mx-auto'>
                 <div className="md:h-[370px] h-[200px] bg-[url('/images/bentley/main-bg-1.png')] bg-cover bg-center mt-10 main-bg-shadow"></div>
                 <h1 className="title z-10 font-normal text-center xl:mt-[-45px] lg:mt-[-30px] mt-[-30px] xl:text-7xl text-5xl">
                     Bentley Home

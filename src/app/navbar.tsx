@@ -8,7 +8,7 @@ type NavbarProps = {
 
 const Navbar: React.FC<NavbarProps> = ({ onHamburgerClick }) => {
   return (
-    <nav className="pt-4 md:h-[100px] h-[50px] md:px-0 px-2 bg-transparent hover:bg-white hover:bg-opacity-40 transition z-100">
+    <nav className="pt-4 md:h-[100px] h-[50px] md:px-0 px-4 bg-transparent hover:bg-white hover:bg-opacity-40 transition z-100">
       <div className='mx-auto flex  items-center xl:max-w-7xl lg:max-w-5xl md:max-w-2xl sm:max-w-xl  z-10'>
         <div className="w-1/3 flex justify-start" onClick={onHamburgerClick}>
           <IoIosMenu size={30} />
@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ onHamburgerClick }) => {
         </div>
 
         <div className="w-1/3 flex justify-end">
-          <Link href="/contacts"><CiLocationOn size={30}/></Link>
+
         </div>
       </div>
     </nav>
