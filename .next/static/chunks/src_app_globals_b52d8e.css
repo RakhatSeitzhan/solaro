@@ -470,6 +470,10 @@ img, video {
   width: 330px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
 .w-fit {
   width: fit-content;
 }
@@ -480,14 +484,6 @@ img, video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[350px\] {
-  width: 350px;
 }
 
 .max-w-32 {
@@ -900,10 +896,6 @@ img, video {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-\[350px\] {
-    width: 350px;
   }
 
   .md\:w-\[550px\] {

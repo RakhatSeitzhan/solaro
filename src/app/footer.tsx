@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="font-semibold mb-3">КОНТАКТЫ</h3>
           <ul className="space-y-1">
-            <li>+7 777 500 2021</li>
+            <li>+7 (777) 927 62 55</li>
             <li><a href="https://www.instagram.com/solaro_luxe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">instagram</a></li>
             <li><a href="http://t.me/77779276255">telegram</a></li>
             <li><a href="http://wa.me/77779276255">whatsapp</a></li>

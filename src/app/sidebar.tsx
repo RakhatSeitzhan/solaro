@@ -59,8 +59,8 @@ const Sidebar: React.FC<SidebarProps> = ({ onClose, isOpen }) => {
               </a>
             </li>
             <li>
-              <a href="tel:+77771112233" className="hover:text-gray-300">
-                +7 777 111 22 33
+              <a href="tel:+77779276255" className="hover:text-gray-300">
+                +7 (777) 927 62 55
               </a>
             </li>
             <li>

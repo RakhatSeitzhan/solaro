@@ -261,9 +261,9 @@ const Sidebar = ({ onClose, isOpen })=>{
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+77771112233",
+                                            href: "tel:+77779276255",
                                             className: "hover:text-gray-300",
-                                            children: "+7 777 111 22 33"
+                                            children: "+7 (777) 927 62 55"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/sidebar.tsx",
                                             lineNumber: 62,
